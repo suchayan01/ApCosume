@@ -21,7 +21,7 @@
         $("#showText").css("visibility","hidden");
     })
     
-    let API_KEY="563492ad6f917000010000011cc41d4698dd4718807e4987f8c6750d";
+    let API_KEY="";
     var xhr=new  XMLHttpRequest();
     xhr.open('GET',"https://api.pexels.com/v1/search?query=4k wallpaper");
     xhr. setRequestHeader("Authorization",API_KEY);
@@ -50,7 +50,7 @@
         // else{
         //     console.log(this.status);
             
-        //     console.log("Fuck");
+        
             
         // }
     }
